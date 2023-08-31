@@ -1,0 +1,159 @@
+{
+  "name": "",
+  "ignore_fields": [],
+  "mappings": {
+    "": {
+      "key": "master_volume",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+    "": {
+      "key": "background_music",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+    "": {
+      "key": "speech_volume",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+
+    "": {
+      "key": "subtitles",
+      "type": "boolean",
+      "isNumber": true
+    },
+    "": {
+      "key": "resolution_height",
+      "type": "progress",
+      "min": 0,
+      "max": 100
+    },
+    "": {
+      "key": "resolution_width",
+      "type": "progress",
+      "min": 0,
+      "max": 100
+    },
+    "": {
+      "key": "resolution_aspectRatio",
+      "type": "progress",
+      "min": 0,
+      "max": 100
+    },
+    "": {
+      "key": "texture",
+      "type": "select_object",
+      "options": {
+        "0": "Off",
+        "1": "FXAA",
+        "2": "MSAA",
+        "3": "SSAA",
+        "9999999": "MLAA"
+      }
+    },
+    "": {
+      "key": "anti_aliasing",
+      "type": "select_object",
+      "options": {
+        "0": "Off",
+        "1": "FXAA",
+        "2": "MSAA",
+        "3": "SSAA",
+        "9999999": "MLAA"
+      }
+    },
+    "": {
+      "key": "control_type",
+      "type": "select_object",
+      "options": {
+        "0": "mouseandkeyboard",
+        "1": "joystick"
+      }
+    },
+    "": {
+      "key": "mouse_sensitivity",
+      "type": "progress",
+      "min": 0,
+      "max": 100
+    },
+
+    "": {
+      "key": "mouse_invertXAxis",
+      "type": "boolean",
+      "isNumber": true
+    },
+    "": {
+      "key": "mouse_invertYAxis",
+      "type": "boolean",
+      "isNumber": true
+    },
+    "": {
+      "key": "mouse_autoAim",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_up",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_down",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_left",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_right",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_strafe",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_run",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_toggleRun",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_walk",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_toggleWalk",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_jump",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_use",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_fire",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_fireSecondary",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_menu",
+      "type": "string"
+    },
+    "": {
+      "key": "controls_crouch",
+      "type": "string"
+    }
+  }
+}
