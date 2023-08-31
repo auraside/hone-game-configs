@@ -6,7 +6,7 @@ You're creating an `info.json` file that will guide a game settings compiler and
 
 ## Initial Fields
 
-```json
+```js
 {
   "name": "folder_and_gameName_here", //Minecraft
   "ignore_fields": ["field_name_here"], //["volume", "adsp_debug"]
@@ -128,7 +128,7 @@ The type field determines how the game setting should be interpreted and mapped 
 
 Uses a regex (regular expression) to replace a value in a configuration field. Its for those cases where other type cases do not work.
 
-```json
+```js
 'bind "$hone_value" "run"': {
   "key": "bind_run",
   "isRegex": true
