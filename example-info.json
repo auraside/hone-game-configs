@@ -1,0 +1,112 @@
+{
+  "name": "CSGO",
+  "ignore_fields": [
+    "volume",
+    "adsp_debug",
+    "ai_report_task_timings_on_limit",
+    "ai_think_limit_label"
+  ],
+  "mappings": {
+    "volume": {
+      "key": "master_volume",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+    "snd_musicvolume": {
+      "key": "background_music",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+    "voice_scale": {
+      "key": "speech_volume",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+
+    "cc_subtitles": {
+      "key": "subtitles",
+      "type": "boolean",
+      "isNumber": true
+    },
+    "sys_antialiasing": {
+      "key": "anti_aliasing",
+      "type": "select_object",
+      "options": {
+        "0": "Off",
+        "1": "FXAA",
+        "2": "MSAA",
+        "3": "SSAA",
+        "9999999": "MLAA"
+      }
+    },
+    "sensitivity": {
+      "key": "mouse_sensitivity",
+      "type": "progress",
+      "min": 0,
+      "max": 100
+    },
+    "sk_autoaim_mode": {
+      "key": "mouse_autoAim",
+      "type": "boolean",
+      "isNumber": true
+    },
+
+    "bind \"$hone_value\" \"+speed; r_cleardecals\"": {
+      "key": "controls_walk",
+      "isRegex": true
+    },
+
+    "bind \"$hone_value\" \"+forward\"": {
+      "key": "controls_up",
+      "isRegex": true
+    },
+    "bind \"$hone_value\" \"+back\"": {
+      "key": "controls_down",
+      "isRegex": true
+    },
+    "bind \"$hone_value\" \"+moveleft\"": {
+      "key": "controls_left",
+      "isRegex": true
+    },
+    "bind \"$hone_value\" \"+moveright\"": {
+      "key": "controls_right",
+      "isRegex": true
+    },
+
+    "bind \"$hone_value\" \"+jump\"": {
+      "key": "controls_jump",
+      "isRegex": true
+    },
+    "bind \"$hone_value\" \"+use\"": {
+      "key": "controls_use",
+      "isRegex": true
+    },
+    "bind \"$hone_value\" \"+attack\"": {
+      "key": "controls_fire",
+      "isRegex": true
+    },
+    "bind \"$hone_value\" \"+attack2\"": {
+      "key": "controls_fireSecondary",
+      "isRegex": true
+    },
+    "bind \"$hone_value\" \"buymenu\"": {
+      "key": "controls_menu",
+      "isRegex": true
+    },
+    "bind \"$hone_value\" \"+duck\"": {
+      "key": "controls_crouch",
+      "isRegex": true
+    },
+    "control_type": {
+      "key": "joystick",
+      "type": "select_object",
+      "options": {
+        "0": "mouseandkeyboard",
+        "1": "joystick"
+      }
+    }
+  }
+}
