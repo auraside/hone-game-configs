@@ -40,9 +40,7 @@
     },
     "": {
       "key": "resolution_aspectRatio",
-      "type": "progress",
-      "min": 0,
-      "max": 100
+      "type": "string",
     },
     "": {
       "key": "texture",
