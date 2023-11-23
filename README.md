@@ -89,6 +89,8 @@ The type field determines how the game setting should be interpreted and mapped 
 
 - type: Indicates that the game setting is a number-based value.
 
+![Hone Desktop Number](./assets/number.gif)
+
 ### 2. String ["string"]
 
 ```json
