@@ -4,6 +4,10 @@
 
 The folder name for the game that's info.json is being created needs to match exactly to the name of the game in the supported games list in Hone's database because the parser uses that to detect the info.json file.
 
+# Officially supported fields by Hone
+
+To see all the fields supported by Hone. Please [click here](./supported-fields.md)
+
 # Creating an `info.json` File for Game Settings Compiler/Parser
 
 You're creating an `info.json` file that will guide a game settings compiler and parser to manage game configuration files. This `info.json` file contains information about the game, configuration settings, and how to map keys to specific configuration fields.
@@ -55,8 +59,8 @@ You use the "mappings" object to define how fields from the game's configuration
 }
 ```
 
-- the key of the object which is Texture in the above example is the key of the field of the config file.
-- key: This indicates the corresponding configuration field key to read from or write to. It should match one of the field names in the game settings database.
+- In the above example, the key of the object, which represents 'Texture' in this context, corresponds to the value identifier (key) of the field in the config file.
+- key: This indicates the corresponding configuration field key to read from or write to. It should match one of the field names in the game settings database. [Please click here to see all the officially supported fields in the Hone backend](./supported-fields.md)
 - type: This is where you specify a type system for mapping within the info.json.
 
 ## Type System in Mapping

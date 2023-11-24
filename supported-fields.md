@@ -2,7 +2,7 @@
 
 Below is the detailed list of all the game-related supported fields by Hone
 
-##Game Settings
+## Game Settings
 
 ### Fields
 
@@ -35,7 +35,7 @@ Below is the detailed list of all the game-related supported fields by Hone
    - **Type:** `JSON (Nullable - Can be empty)`
    - **Description:** Additional settings that are not supported by Hone officially stored in JSON format that extend the game settings. Can be null or empty if not provided.
 
-##Graphics
+## Graphics
 
 ### Fields
 
@@ -63,7 +63,7 @@ Below is the detailed list of all the game-related supported fields by Hone
    - **Type:** `String (Nullable - Can be empty)`
    - **Description:** Defines the anti-aliasing settings for graphics. Possible values: 'Off', 'FXAA', 'MSAA', 'SSAA', 'MLAA'. Can be null or empty if not specified.
 
-##Audio
+## Audio
 
 ### Fields
 
@@ -86,7 +86,7 @@ Below is the detailed list of all the game-related supported fields by Hone
    - **Type:** `Boolean (Nullable - Can be empty)`
    - **Description:** Indicates whether subtitles are enabled for the game's audio. Can be null or empty if not specified.
 
-##Controls
+## Controls
 
 ### Fields
 
