@@ -1,5 +1,5 @@
 {
-    "name": "CS2",
+    "name": "CS2",  .*\\Steam\\userdata\\.*\\730\\local\\cfg\\cs2_video.txt
     "ignore_fields": [
         "password", 
         "auth_token"
