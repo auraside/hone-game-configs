@@ -1,0 +1,117 @@
+{
+    "name": "CS2",
+    "ignore_fields": [
+        "password", 
+        "auth_token"
+    ],
+
+    "Mappings": {
+
+        "setting.defaultresheight": {
+            "key": "resolution_height",
+            "type": "Number"
+        },
+
+        "setting.defaultres": {
+            "key": "resolution_width",
+            "type": "Number"
+        },
+
+        "setting.msaa_samples": {
+            "key":"anti_aliasing",
+            "type": "select_object",
+            "options": {
+                "0": "off",
+                "2": "2X MSAA",
+                "4": "4X MSAA",
+                "8": "8X MSAA"
+            }
+        },
+
+        "Volume": {
+            "key": "volume",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+
+        "snd_menumusic_volume$4": {
+            "key": "background_music",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+
+        "cc_subtitles": {
+            "key": "subtitles",
+            "type": "boolean",
+            "isNumber": false
+        },
+
+
+        "sensitivity": {
+            "key": "sensitivity",
+            "type": "progress",
+            "min": 0,
+            "max": 8
+        },
+
+        "joystick": {
+            "key": "control_type",
+            "type": "select_object",
+            "options": {
+                "0": "mouseandkeyboard",
+                "1": "joystick"
+            }
+        },
+
+        "sk_autoaim_mode": {
+            "key": "mouse_autoAim",
+            "type": "boolean",
+            "isNumber": true
+        },
+      
+        "bind \"$hone_value\" \"+forward\"": {
+        "key": "controls_up",
+        "isRegex": true
+        },
+        "bind \"$hone_value\" \"+back\"": {
+        "key": "controls_down",
+        "isRegex": true
+        },
+        "bind \"$hone_value\" \"+moveleft\"": {
+        "key": "controls_left",
+        "isRegex": true
+        },
+        "bind \"$hone_value\" \"+moveright\"": {
+        "key": "controls_right",
+        "isRegex": true
+        },
+    
+        "bind \"$hone_value\" \"+jump\"": {
+        "key": "controls_jump",
+        "isRegex": true
+        },
+        "bind \"$hone_value\" \"+use\"": {
+        "key": "controls_use",
+        "isRegex": true
+        },
+        "bind \"$hone_value\" \"+attack\"": {
+        "key": "controls_fire",
+        "isRegex": true
+        },
+        "bind \"$hone_value\" \"+attack2\"": {
+        "key": "controls_fireSecondary",
+        "isRegex": true
+        },
+        "bind \"$hone_value\" \"buymenu\"": {
+        "key": "controls_menu",
+        "isRegex": true
+        },
+        "bind \"$hone_value\" \"+duck\"": {
+        "key": "controls_crouch",
+        "isRegex": true
+        }
+
+    }
+}

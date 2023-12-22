@@ -1,0 +1,119 @@
+{
+  "name": "Apex Legends",
+   "ignore_fields": [
+        "name"
+   ],
+  "mappings": {
+    "sound_volume": {
+      "key": "master_volume",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+    "sound_volume_music_game": {
+      "key": "background_music",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+    "sound_volume_voice": {
+      "key": "speech_volume",
+      "type": "progress",
+      "min": 0,
+      "max": 1
+    },
+    "closecaption": {
+      "key": "subtitles",
+      "type": "boolean",
+      "isNumber": true
+    },
+    "setting.last_display_height": {
+      "key": "resolution_height",
+      "type": "progress",
+      "min": 0,
+      "max": 9999
+    },
+    "setting.last_display_width": {
+      "key": "resolution_width",
+      "type": "progress",
+      "min": 0,
+      "max": 9999
+    },
+    "setting.mat_antialias_mode": {
+      "key": "anti_aliasing",
+      "type": "select_object",
+      "options": {
+        "0": "Off",
+        "1": "MSAA",
+        "2": "FXAA"
+      }
+    },
+    "gamepad_use_type": {
+      "key": "control_type",
+      "type": "select_object",
+      "options": {
+        "2": "Mouse And Keyboard",
+        "1": "GamePad"
+      }
+    },
+    "mouse_sensitivity": {
+      "key": "mouse_sensitivity",
+      "type": "progress",
+      "min": 0,
+      "max": 100
+    },
+    "m_invert_pitch": {
+      "key": "mouse_invertYAxis",
+      "type": "boolean",
+      "isNumber": true
+    },
+    "bind \"$hone_value\" \"+forward\"": {
+      "key": "controls_up",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+backward\"": {
+      "key": "controls_down",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+moveright\"": {
+      "key": "controls_left",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+moveleft\"": {
+      "key": "controls_right",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+strafe\"": {
+      "key": "controls_strafe",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+speed\"": {
+      "key": "controls_run",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+jump\"": {
+      "key": "controls_jump",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+use; +use_long\"": {
+      "key": "controls_use",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+attack\"": {
+      "key": "controls_fire",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+toggle_zoom\"": {
+      "key": "controls_fireSecondary",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"toggle_inventory\"": {
+      "key": "controls_menu",
+      "isRegex": "true"
+    },
+    "bind \"$hone_value\" \"+duck\"": {
+      "key": "controls_crouch",
+      "isRegex": "true"
+    }
+  }
+}
