@@ -1,5 +1,8 @@
 {
-    "name": "Dead by Daylight", .*\\DeadByDaylight\\Saved\\Config\\WindowsClient\\GameUserSettings.ini
+    "name": "Dead by Daylight", 
+    "configs": [
+        ".*\\DeadByDaylight\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+    ],
     "ignore_fields": [
         "password", 
         "auth_token"
