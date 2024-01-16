@@ -1,0 +1,67 @@
+{
+    "name": "Dead by Daylight", 
+    "configs": [
+        ".*\\DeadByDaylight\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+    ],
+    "ignore_fields": [
+        "password", 
+        "auth_token"
+    ],
+
+    "Mappings": {
+        "ResolutionSizeY": {
+            "key": "resolution_height",
+            "type": "Number"
+        },
+
+        "ResolutionSizeX": {
+            "key": "resolution_width",
+            "type": "Number"
+        },
+        "sg.TextureQuality": {
+            "key": "texture",
+            "type": "select_object",
+            "options": {
+              "0": "Low",
+              "1": "Medium",
+              "2": "High",
+              "3": "Ultra"
+            }
+        },
+        "AntiAliasingMode": {
+            "key": "anti_aliasing",
+            "type": "select_object",
+            "options": {
+                "0": "Off",
+                "2": "TAA"
+            }
+        },
+        "MainVolume": {
+            "key": "master_volume",
+            "type": "progress",
+            "min": "0",
+            "max": "100"
+        },
+        "MenuMusicVolume": {
+            "key": "background_music",
+            "type": "progress",
+            "min": "0",
+            "max": "100"
+        },
+        "Subtitles": {
+            "key": "subtitles",
+            "type": "boolean",
+            "isNumber": false
+        },
+        "AimAssist": {
+            "key": "mouse_autoAim",
+            "type": "boolean",
+            "isNumber": "false"
+        },
+        "InvertY": {
+            "key": "mouse_invertYAxis",
+            "type": "boolean",
+            "isNumber": "false"
+        }
+    }
+}

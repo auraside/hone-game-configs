@@ -1,0 +1,84 @@
+{
+    "name": "Destiny 2",
+    "configs": [
+        ".*\\AppData\Roaming\Bungie\DestinyPC\prefs\cvars.xml"
+    ],
+    "ignore_fields": [
+        "password", 
+        "auth_token"
+    ],
+
+    "mappings": {
+        "fullscreen_resolution_height": {
+            "key": "resolution_height",
+            "type": "Number"
+        },
+
+        "fullscreen_resolution_width": {
+            "key": "resolution_width",
+            "type": "Number"
+        },
+        "texture_quality": {
+            "key": "texture",
+            "type": "select_object",
+            "options": {
+              "0": "Lowest",
+              "1": "Low",
+              "2": "Medium",
+              "3": "High",
+              "4": "Highest"
+            }
+        },
+        "AntiAliasingMode": {
+            "key": "anti_aliasing",
+            "type": "select_object",
+            "options": {
+                "0": "Off",
+                "1": "FXAA",
+                "2": "SMAA"
+            }
+        },
+        "cached_music_volume": {
+            "key": "background_music",
+            "type": "progress",
+            "min": "0",
+            "max": "10"
+        },
+        "bind \"$hone_value\" \"move_forward\"": {
+            "key": "controls_up",
+            "isRegex": true
+        },
+        "bind \"$hone_value\" \"move_backward\"": {
+            "key": "controls_down",
+            "isRegex": true
+        },
+        "bind \"$hone_value\" \"move_left\"": {
+            "key": "controls_left",
+            "isRegex": true
+        },
+        "bind \"$hone_value\" \"move_right\"": {
+            "key": "controls_right",
+            "isRegex": true
+        },
+        "bind \"$hone_value\" \"hold_sprint\"": {
+            "key": "controls_run",
+            "isRegex": true
+        },
+        "bind \"$hone_value\" \"toggle_sprint\"": {
+            "key": "controls_toggleRun",
+            "isRegex": true
+        },
+        "bind \"$hone_value\" \"jump\"": {
+            "key": "controls_jump",
+            "isRegex": true
+        },
+        "bind \"$hone_value\" \"fire\"": {
+            "key": "controls_fire",
+            "isRegex": true
+        },
+        "bind \"$hone_value\" \"hold_crouch\"": {
+            "key": "controls_crouch",
+            "isRegex": true
+        },
+    }
+}

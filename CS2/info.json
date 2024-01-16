@@ -1,5 +1,10 @@
 {
-    "name": "CS2",
+    "name": "CS2",          
+    "configs": [
+        ".*\\Steam\\userdata\\.*\\730\\local\\cfg\\cs2_video.txt",
+        ".*\\Steam\\userdata\\.*\\730\\local\\cfg\\cs2_machine_convars.vcfg",
+        ".*\\Steam\\userdata\\.*\\730\\local\\cfg\\cs2_user_convars_0_slot0.vcfg"
+    ],
     "ignore_fields": [
         "password", 
         "auth_token"
