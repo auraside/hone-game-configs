@@ -1,7 +1,7 @@
 {
     "name": "Destiny 2",
     "configs": [
-        ".*\\AppData\Roaming\Bungie\DestinyPC\prefs\cvars.xml"
+        ".*\\AppData\\Roaming\\Bungie\\DestinyPC\\prefs\\cvars.xml"
     ],
     "ignore_fields": [
         "password", 
