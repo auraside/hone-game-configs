@@ -34,7 +34,7 @@
         },
 
         "Volume": {
-            "key": "volume",
+            "key": "master_volume",
             "type": "progress",
             "min": "0",
             "max": "1"

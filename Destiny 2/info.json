@@ -79,6 +79,6 @@
         "bind \"$hone_value\" \"hold_crouch\"": {
             "key": "controls_crouch",
             "isRegex": true
-        },
+        }
     }
 }
