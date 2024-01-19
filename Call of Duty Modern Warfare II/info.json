@@ -1,0 +1,66 @@
+{
+    "name": "Call Of Duty Warzone 2.0",          
+    "configs": [
+        ".*\\Documents\\Call Of Duty\\players\\options.3.cod22.cst",
+        ".*\\Documents\\Call Of Duty\\players\\.*\\settings.3.local.cod22.cst"
+    ],
+    "ignore_fields": [
+        "password", 
+        "auth_token"
+    ],
+
+    "Mappings": {
+
+        "AspectRatio:0.0": {
+            "key": "resolution_aspectRatio",
+            "type": "select_array",
+            "options": ["auto", "standard", "5:4", "wide 16:10", "wide 16:9", "wide 18:9", "wide 19.5:9", "wide 21:9", "wide 32:9"] 
+        },
+
+        "TextureQuality:0.0": {
+            "key":"texture",
+            "type": "select_object",
+            "options": {
+                "0": "High",
+                "1": "Normal",
+                "2": "Low",
+                "3": "Very Low"
+            }
+        },
+
+        "AATechniquePreferred:0.1": {
+            "key":"anti_aliasing",
+            "type": "select_array",
+            "options": ["SMAA T2x", "Filmic SMAA T2x", "XeSS", "FSR2"]
+        },
+
+        "Volume:0.0": {
+            "key": "master_volume",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+
+        "MusicVolume:0.0": {
+            "key": "background_music",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+
+        "VoiceVolume:0.0": {
+            "key": "speech_volume",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+
+        "MouseHorizontalSensibility:0.0": {
+            "key": "mouse_sensitivity",
+            "type": "progress",
+            "min": 0.01,
+            "max": 100
+        }
+
+    }
+}
