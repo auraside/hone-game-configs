@@ -1,0 +1,61 @@
+{
+    "name": "Halo Infinite",          
+    "configs": [
+        ".*\\AppData\\Local\\HaloInfinite\\Settings\\SpecControlSettings.json"
+        
+    ],
+    "ignore_fields": [
+        "password", 
+        "auth_token"
+    ],
+
+    "Mappings": {
+
+        "spec_control_windowed_display_resolution_y": {
+            "key": "resolution_height",
+            "type": "Number"
+        },
+
+        "spec_control_windowed_display_resolution_x": {
+            "key": "resolution_width",
+            "type": "Number"
+        },
+        "spec_control_texture_quality": {
+            "key": "texture",
+            "type": "select_array",
+            "options": ["Low", "Medium", "High", "Ultra"]
+        },
+
+        "spec_control_master_volume": {
+            "key": "master_volume",
+            "type": "progress",
+            "min": "0",
+            "max": "10"
+        },
+
+        "spec_control_music_volume": {
+            "key": "background_music",
+            "type": "progress",
+            "min": "0",
+            "max": "10"
+        },
+
+        "spec_control_dialog_volume": {
+            "key": "speech_volume",
+            "type": "progress",
+            "min": "0",
+            "max": "10"
+        },
+
+        "subtitle_settings": {
+            "key": "subtitles",
+            "type": "select_object",
+            "options": {
+                "0": "Automatic",
+                "1": "On",
+                "2": "Off"
+            }
+        }
+
+    }
+}

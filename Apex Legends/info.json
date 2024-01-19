@@ -1,8 +1,8 @@
 {
   "name": "Apex Legends",   
   "configs": [
-    ".*\\Saved Games\Respawn\Apex\local\videoconfig.txt",
-    ".*\\Saved Games\Respawn\Apex\local\settings.cfg"
+    ".*\\Saved Games\\Respawn\\Apex\\local\\videoconfig.txt",
+    ".*\\Saved Games\\Respawn\\Apex\\local\\settings.cfg"
   ],
   "ignore_fields": [
         "name"
