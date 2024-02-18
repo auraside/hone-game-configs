@@ -1,0 +1,30 @@
+{
+  "name": "Fortnite",   
+  "configs": [
+    ".*\\%LOCALAPPDATA\\FortniteGame\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+  ],
+  "ignore_fields": [
+        "name"
+   ],
+  "mappings": {
+    "ResolutionSizeY": {
+      "key": "resolution_height",
+      "type": "Number"
+    },
+
+    "ResolutionSizeX": {
+      "key": "resolution_width",
+      "type": "Number"
+    },
+    "sg.TextureQuality": {
+      "Key": "texture",
+      "type": "select_object",
+      "options": {
+        "0": "Low",
+        "1": "Medium",
+        "2": "High",
+        "3": "Epic"
+      }
+    }
+  }
+}
