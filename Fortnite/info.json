@@ -1,7 +1,7 @@
 {
   "name": "Fortnite",   
   "configs": [
-    ".*\\%LOCALAPPDATA\\FortniteGame\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+    ".*\\Appdata\\Local\\FortniteGame\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
   ],
   "ignore_fields": [
         "name"
