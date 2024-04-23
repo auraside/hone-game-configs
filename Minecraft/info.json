@@ -1,0 +1,108 @@
+{
+	"name":	"Minecraft",										
+	"configs":	[
+		".*\\AppData\\Roaming\\.minecraft\\options.txt",
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"overrideHeight":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"overrideWidth":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"fancyGraphics":	{
+			"key":"texture",
+			"type":	"select_object",
+			"options":	{
+				"false": "Fast",
+				"true":	"Fancy"
+			}
+		},
+		"graphicsMode":	{
+			"key":	"texture",
+			"type":	"select_object",
+			"options":	{
+				"0":	"Fast",
+				"1":	"Fancy",
+				"2":	"Fabulous!"
+			}
+		},
+		"soundCategory_master":	{
+			"key":	"master_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"soundCategory_music":	{
+			"key":	"background_music",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"soundCategory_voice":	{
+			"key":	"speech_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"invertYMouse":	{
+			"key":	"mouse_invertYAxis",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+		"showSubtitles":	{
+			"key":	"subtitles",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+		"mouseSensitivity":	{
+			"key":	"mouse_sensitivity",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"key_key.forward:key.$hone_value":	{
+			"key":	"controls_up",
+			"isRegex":	true
+		},
+		"key_key.back:key.$hone_value":	{
+			"key":	"controls_down",
+			"isRegex":	true
+		},
+		"key_key.left:key.$hone_value":	{
+			"key":	"controls_left",
+			"isRegex":	true
+		},
+		"key_key.right:key.$hone_value":	{
+			"key":	"controls_right",
+			"isRegex":	true
+		},
+		"key_key.jump:key.$hone_value":	{
+			"key":	"controls_jump",
+			"isRegex":	true
+		},
+		"key_key.use:key.$hone_value":	{
+			"key":	"controls_use",
+			"isRegex":	true
+		},
+		"key_key.attack:key.$hone_value":	{
+			"key":	"controls_fire",
+			"isRegex":	true
+		},
+		"key_key.sprint:key.$hone_value":	{
+			"key":	"controls_run",
+			"isRegex":	true
+		},
+		"key_key.sneak:key.keyboard.$hone_value":	{
+			"key":	"controls_crouch",
+			"isRegex":	true
+		},
+		"key_key.inventory:key.$hone_value":	{
+			"key":	"controls_menu",
+			"isRegex":	true
+		}
+	}
+}
