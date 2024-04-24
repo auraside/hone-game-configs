@@ -17,20 +17,20 @@
 			"key":	"texture",
 			"type":	"select_object",
 			"options":	{
-				"0":	"0",
-				"1":	"1",
-				"2":	"2",
-                "3":	"3"
+				"0":	"Low",
+				"1":	"Medium",
+				"2":	"High",
+                "3":	"Epic"
 			}
 		},
         "sg.AntiAliasingQuality":	{
 			"key":	"anti_aliasing",
 			"type":	"select_object",
 			"options":	{
-				"0":	"0",
-				"1":	"1",
-				"2":	"2",
-                "3":	"3"
+				"0":	"Low",
+				"1":	"Medium",
+				"2":	"High",
+                "3":	"Epic"
 			}
 		}
     }
