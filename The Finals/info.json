@@ -1,0 +1,37 @@
+{
+	"name":	"The Finals",										
+	"configs":	[
+		".*\\AppData\\local\\Discovery\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResolutionSizeY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResolutionSizeX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"sg.TextureQuality":	{
+			"key":	"texture",
+			"type":	"select_object",
+			"options":	{
+				"0":	"Low",
+				"1":	"Medium",
+				"2":	"High",
+                "3":	"Epic"
+			}
+		},
+        "sg.AntiAliasingQuality":	{
+			"key":	"anti_aliasing",
+			"type":	"select_object",
+			"options":	{
+				"0":	"Low",
+				"1":	"Medium",
+				"2":	"High",
+                "3":	"Epic"
+			}
+		}
+    }
+}
