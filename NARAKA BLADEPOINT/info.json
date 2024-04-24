@@ -1,0 +1,30 @@
+{
+	"name":	"NARAKA BLADEPOINT",										
+	"configs":	[
+		".*\\NARAKA BLADEPOINT\\NarakaBladepoint_Data\\QualitySettingsData.txt",
+        ".*\\AppData\\LocalLow\\24Entertainment\\Naraka\\AudioPreference.json",
+        ".*\\AppData\\LocalLow\\24Entertainment\\Naraka\\LocalizationSetting.json"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"resolutionHeight":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"resolutionWidth":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"m_AALevel":	{
+			"key":"anti_aliasing",
+			"type":	"select_array",
+			"options":	["Low","Medium","High"]
+		},
+		"m_textureQualityLevel":	{
+			"key":	"texture",
+			"type":	"select_array",
+			"options":	["Lowest","Low","Medium","High"]
+		}
+		
+	}
+}
