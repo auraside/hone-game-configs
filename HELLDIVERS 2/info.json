@@ -1,0 +1,88 @@
+{
+	"name":	"HELLDIVERS 2",										
+	"configs":	[
+		".*\\AppData\\Roaming\\Arrowhead\\Helldivers2\\user_settings.config",
+        ".*\\Steam\\userdata\\<user-id>\\553850\\remote\\input_settings.config"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"texture_quality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Ultra"]
+		},
+		"taa_enabled":	{
+			"key":	"anti_aliasing",
+			"type":	"boolean",
+			"isNumber": false
+		},
+		"audio_volume":	{
+			"key":	"master_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"music_volume":	{
+			"key":	"background_music",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"dialogue_volume":	{
+			"key":	"speech_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"mouseSensitivity":	{
+			"key":	"mouse_sensitivity",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"10"
+		},
+		"MoveForward:$hone_value":	{
+			"key":	"controls_up",
+			"isRegex":	true
+		},
+		"MoveBack:$hone_value":	{
+			"key":	"controls_down",
+			"isRegex":	true
+		},
+		"MoveLeft:$hone_value":	{
+			"key":	"controls_left",
+			"isRegex":	true
+		},
+		"MoveRight:$hone_value":	{
+			"key":	"controls_right",
+			"isRegex":	true
+		},
+		"Climb:$hone_value":	{
+			"key":	"controls_jump",
+			"isRegex":	true
+		},
+		"Use:$hone_value":	{
+			"key":	"controls_use",
+			"isRegex":	true
+		},
+		"Fire:$hone_value":	{
+			"key":	"controls_fire",
+			"isRegex":	true
+		},
+        "Aim:key.$hone_value":	{
+			"key":	"controls_fireSecondary",
+			"isRegex":	true
+		},
+		"Sprint:$hone_value":	{
+			"key":	"controls_run",
+			"isRegex":	true
+		},
+		"Crouch:$hone_value":	{
+			"key":	"controls_crouch",
+			"isRegex":	true
+		},
+		"ToggleMenu:$hone_value":	{
+			"key":	"controls_menu",
+			"isRegex":	true
+		}
+	}
+}
