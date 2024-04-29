@@ -15,12 +15,12 @@
 		},
 		"texture_quality":	{
 			"key":"texture",
-			"type":	"select_object",
+			"type":	"select_array",
 			"options":	["Medium","High"]
 		},
 		"dx11_antialias_mode":	{
 			"key":	"anti_aliasing",
-			"type":	"select_object",
+			"type":	"select_array",
 			"options":	["Off","Low","High"]
 		},
 		"master_volume2":	{
