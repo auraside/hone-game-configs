@@ -1,0 +1,25 @@
+{
+	"name":	"Monster Hunter World",										
+	"configs":	[
+		".*\\Monster Hunter World\\graphics_option.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"TextureQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["256","512","1024","Full"]
+		},
+		"Anti-Aliasing":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options": ["Off","TAA","FXAA","TAA + FXAA"]
+		},
+        "Aspect Ratio":	{
+			"key":	"resolution_aspectRatio",
+			"type":	"select_array",
+			"options": ["Wide (16:9)","Ultrawide (21:9)"]
+		}
+		
+	}
+}

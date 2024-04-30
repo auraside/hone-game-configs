@@ -1,0 +1,39 @@
+{
+	"name":	"Grand Theft Auto V",										
+	"configs":	[
+        ".*\\Documents\\Rockstar Games\\GTA V\\settings.xml"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ScreenHeight value":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ScreenWidth value":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"MSAA value":	{
+			"key":"anti_aliasing",
+			"type":	"select_array",
+			"options":	["off","X2","X4","X8"]
+		},
+        "FXAA_Enabled value":	{
+			"key":"anti_aliasing",
+			"type":	"Boolean",
+			"isNumber": true
+		},
+        "TXAA_Enabled value":	{
+			"key":"anti_aliasing",
+			"type":	"Boolean",
+			"isNumber": false
+		},
+		"TextureQuality value":	{
+			"key":	"texture",
+			"type":	"select_array",
+			"options":	["Normal","High","Very High"]
+		}
+		
+	}
+
+}

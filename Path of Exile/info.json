@@ -1,0 +1,46 @@
+{
+	"name":	"Path of Exile",										
+	"configs":	[
+		".*\\Documents\\My Games\\Path of Exile\\production_Config.ini"
+	],
+	"ignore_fields":	["gateway_id"],
+	"Mappings":	{
+		"resolution_height":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"resolution_width":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"texture_quality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Medium","High"]
+		},
+		"dx11_antialias_mode":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["Off","Low","High"]
+		},
+		"master_volume2":	{
+			"key":	"master_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"music_volume2":	{
+			"key":	"background_music",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"dialogue_sound_volume2":	{
+			"key":	"speech_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"7"
+		}
+		
+    }
+}

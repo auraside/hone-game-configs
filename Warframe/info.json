@@ -1,0 +1,64 @@
+{
+	"name":	"Warframe",										
+	"configs":	[
+		".*\\AppData\\Local\\Warframe\\EE.cfg"
+	],
+	"ignore_fields":	["Client.Email"],
+	"Mappings":	{
+		"Graphics.FullScreenSizeY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"Graphics.FullScreenSizeX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+        "Graphics.DisplayAspectRatio":	{
+			"key":	"resolution_aspectRatio",
+			"type":	"select_array",
+			"options":	
+            ["4:3","6:9","16:10",
+            "21:9","32:9","32:10","3X 4:3","3X 16:9","3X 16:10",
+			"3X 21:9","3X2 4:3","3X2 16:9","3X2 16:10","3X2 21:9"]
+		},
+		"Graphics.AntiAliasing":	{
+			"key":"anti_aliasing",
+			"type":	"select_array",
+			"options":	["DISABLED","FXAA","SMAA","TAA 8X"]
+		},
+		"Graphics.TextureQuality":	{
+			"key":	"texture",
+			"type":	"select_array",
+			"options":	["LOW","MEDIUM","HIGH"]
+		},
+		"JUMP:$hone_value":	{
+			"key":	"controls_jump",
+			"isRegex":	true
+		},
+		"USE:key.$hone_value":	{
+			"key":	"controls_use",
+			"isRegex":	true
+		},
+		"PRE_ATTACK:$hone_value":	{
+			"key":	"controls_fire",
+			"isRegex":	true
+		},
+        "AIM_WEAPON:$hone_value":	{
+			"key":	"controls_fireSecondary",
+			"isRegex":	true
+		},
+		"RUN:$hone_value":	{
+			"key":	"controls_run",
+			"isRegex":	true
+		},
+		"CROUCH:$hone_value":	{
+			"key":	"controls_crouch",
+			"isRegex":	true
+		},
+		"SHOW_PAUSE_MENU:$hone_value":	{
+			"key":	"controls_menu",
+			"isRegex":	true
+		}
+		
+	}
+}
