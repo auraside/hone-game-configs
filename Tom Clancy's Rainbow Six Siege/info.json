@@ -1,0 +1,66 @@
+{
+	"name":	"Tom Clancy's Rainbow Six Siege",										
+	"configs":	[
+		".*\\Documents\\My Games\\Rainbow Six - Siege\\<user-id>\\GameSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResolutionHeight":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResolutionWidth":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"Texture":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Very High"]
+		},
+		"AntiAliasing":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["T-AA","Off","FXAA","T-AA-2X","T-AA-4X"]
+		},
+        "AspectRatio":	{
+			"key":	"resolution_aspectRatio",
+			"type":	"select_array",
+			"options":	["Resolution","5:4","4:3","3:2","16:10","5:3","16:9","19:10","21:9"]
+		},
+		"MasterVolume":	{
+			"key":	"master_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"InGameMusicVolume":	{
+			"key":	"background_music",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"VoiceVolume":	{
+			"key":	"speech_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+        "Subtitle":	{
+			"key":	"subtitles",
+			"type":	"boolean",
+			"isNumber": false
+		},
+        "ADSMouseSensitivityGlobal":	{
+			"key":	"mouse_sensitivity",
+			"type":	"Number"
+		},
+        "InvertMouseAxisY":	{
+			"key":	"mouse_invertYAxis",
+			"type":	"boolean",
+			"isNumber": false
+		}
+        
+		
+    }
+}
