@@ -1,0 +1,22 @@
+{
+	"name":	"Farlight 84",										
+	"configs":	[
+		".*\\AppData\\Local\\Solarland\\Saved_Steam\\Config\\WindowsClient\\WindowsGraphicsUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"SelectQualityLevel":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Smooth","Balanced","HD","HDR","Ultra","Extreme"]
+		},
+		"FXAAQuality":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["Off","MSAA"]
+		}
+       
+        
+		
+    }
+}
