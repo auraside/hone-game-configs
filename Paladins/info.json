@@ -1,0 +1,77 @@
+{
+	"name":	"Paladins",										
+	"configs":	[
+		".*\\Documents\\My Games\\Paladins\\ChaosGame\\Config"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"MaxAnisotropy":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Very High","Maximum"]
+		},
+		"FXAAQuality":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["Off","2X","4X","8X"]
+		},
+		"MoveForward:$hone_value":	{
+			"key":	"controls_up",
+			"isRegex":	true
+		},
+		"MoveBackward:$hone_value":	{
+			"key":	"controls_down",
+			"isRegex":	true
+		},
+		"StrafeLeft:$hone_value":	{
+			"key":	"controls_left",
+			"isRegex":	true
+		},
+		"StrafeRight:$hone_value":	{
+			"key":	"controls_right",
+			"isRegex":	true
+		},
+		"Jump:$hone_value":	{
+			"key":	"controls_jump",
+			"isRegex":	true
+		},
+		"Use:$hone_value":	{
+			"key":	"controls_use",
+			"isRegex":	true
+		},
+		"Fire:$hone_value":	{
+			"key":	"controls_fire",
+			"isRegex":	true
+		},
+        "AltFire:key.$hone_value":	{
+			"key":	"controls_fireSecondary",
+			"isRegex":	true
+		},
+		"Duck:$hone_value":	{
+			"key":	"controls_crouch",
+			"isRegex":	true
+		},
+        "Walking:$hone_value":	{
+			"key":	"controls_walk",
+			"isRegex":	true
+		},
+		"ToggleMenu:$hone_value":	{
+			"key":	"controls_menu",
+			"isRegex":	true
+		},
+        "MouseSensitivity":	{
+			"key":	"mouse_sensitivity",
+			"type":	"Number"
+		}
+        
+		
+    }
+}
