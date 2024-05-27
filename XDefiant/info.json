@@ -1,0 +1,115 @@
+{
+	"name":	"XDefiant",										
+	"configs":	[
+		".*\\Documents\\My Games\\XDefiant"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"height":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"width":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"MainVolume_v0":	{
+			"key":	"master_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"MusicVolume_v1":	{
+			"key":	"background_music",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"VoiceVolume_v1":	{
+			"key":	"speech_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+        "SprintToggle_v0":	{
+			"key":	"subtitles",
+			"type":	"boolean",
+			"isNumber": false
+		},
+		"InvertXAxis_v1":	{
+			"key":	"mouse_invertXAxis",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+        "InvertYAxis_v1":	{
+			"key":	"mouse_invertYAxis",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+		"subtitleMode":	{
+			"key":	"subtitles",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+		"GameplayInput_v0":	{
+			"key":	"control_type",
+			"type":	"select_array",
+			"options":	["Mouse & Keyboard","Controller"]
+        },
+		"MouseSensitivity_v0":	{
+			"key":	"mouse_sensitivity",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"KB_MOVE_UP:$hone_value":	{
+			"key":	"controls_up",
+			"isRegex":	true
+		},
+		"KB_MOVE_DOWN:$hone_value":	{
+			"key":	"controls_down",
+			"isRegex":	true
+		},
+		"KB_MOVE_LEFT:$hone_value":	{
+			"key":	"controls_left",
+			"isRegex":	true
+		},
+		"KB_MOVE_RIGHT:$hone_value":	{
+			"key":	"controls_right",
+			"isRegex":	true
+		},
+        "KB_SPRINT:$hone_value":	{
+			"key":	"controls_run",
+			"isRegex":	true
+		},
+        "KB_WALK_TOGGLE:$hone_value":	{
+			"key":	"controls_toggleWalk",
+			"isRegex":	true
+		},
+		"KB_ACTION_1:$hone_value":	{
+			"key":	"controls_jump",
+			"isRegex":	true
+		},
+		"KB_ACTION_3:$hone_value":	{
+			"key":	"controls_use",
+			"isRegex":	true
+		},
+		"KB_SHOOT:$hone_value":	{
+			"key":	"controls_fire",
+			"isRegex":	true
+		},
+        "KB_AIM:$hone_value":	{
+			"key":	"controls_fireSecondary",
+			"isRegex":	true
+		},
+        "KB_UI_SETTINGS:$hone_value":	{
+			"key":	"controls_menu",
+			"isRegex":	true
+		},
+		"KB_ACTION_2:$hone_value":	{
+			"key":	"controls_crouch",
+			"isRegex":	true
+		}
+
+	}
+}
