@@ -1,0 +1,29 @@
+{
+	"name":	"MultiVersus",										
+	"configs":	[
+		".*\\AppData\\local\\MultiVersus\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResolutionSizeY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResolutionSizeX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+        "sg.TextureQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Very Low","Low","Medium","High","Very High"]
+		},
+		"sg.AntiAliasingQuality":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["Very Low","Low","Medium","High","Very High"]
+		}
+		
+
+	}
+}
