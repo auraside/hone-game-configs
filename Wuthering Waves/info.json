@@ -1,0 +1,27 @@
+{
+	"name":	"Wuthering Waves",										
+	"configs":	[
+		".*\\Wuthering Waves\\Wuthering Waves Game\\Client\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResolutionSizeY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResolutionSizeX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"sg.TextureQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Very High"]
+		},
+		"sg.AntiAliasingQuality":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["T-AA","Off","FXAA","T-AA-2X","T-AA-4X"]
+		}
+    }
+}
