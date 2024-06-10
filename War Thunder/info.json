@@ -1,0 +1,25 @@
+{
+	"name":	"War Thunder",										
+	"configs":	[
+		".*\\War Thunder\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"texquality:t":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High"]
+		},
+		"postfx_antialiasing:t":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["None","FXAA","HQ FXAA","T-AA"]
+		},
+        "isSubtitles:i":	{
+			"key":	"subtitles",
+			"type":	"boolean",
+			"isNumber": false
+		}
+		
+    }
+}
