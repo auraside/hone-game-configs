@@ -1,0 +1,27 @@
+{
+	"name":	"Borderlands 3",										
+	"configs":	[
+		".*\\Documents\\My Games\\Borderlands 3\\Saved\\Config\\WindowsNoEditor\\GameUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResolutionSizeY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResolutionSizeX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"sg.TextureQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Ultra"]
+		},
+		"sg.AntiAliasingQuality":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["None","FXAA","Temporal"]
+		}
+    }
+}
