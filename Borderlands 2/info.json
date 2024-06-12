@@ -1,0 +1,27 @@
+{
+	"name":	"Borderlands 2",										
+	"configs":	[
+		".*\\Documents\\My Games\\Borderlands 2\\WillowGame\\Config"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"TextureQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Very High"]
+		},
+		"FXAA":	{
+			"key":	"anti_aliasing",
+			"type":	"Boolean",
+			"isNumber": false
+		}
+    }
+}
