@@ -1,0 +1,92 @@
+{
+	"name":	"Left 4 Dead 2",										
+	"configs":	[
+		".*\\Left 4 Dead 2\\left4dead2\\cfg\\config.cfg",
+        ".*\\Left 4 Dead 2\\left4dead2\\cfg\\video.txt"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"setting.defaultresheight":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"setting.defaultres":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"setting.gpu_mem_level":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High"]
+		},
+		"setting.mat_aaquality":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["None","2x MSAA","4x MSAA","8x MSAA"]
+		},
+        "setting.aspectratiomode":	{
+			"key":	"resolution_aspectRatio",
+			"type":	"select_array",
+			"options": ["Normal (4:3)","Widescreen (16:9)","Widescreen (16:10)"]
+		},
+        "volume": {
+            "key": "master_volume",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+        "snd_musicvolume": {
+            "key": "background_music",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+        "sensitivity": {
+            "key": "sensitivity",
+            "type": "progress",
+            "min": 0,
+            "max": 20
+        },
+        "+forward:$hone_value":	{
+			"key":	"controls_up",
+			"isRegex":	true
+		},
+		"+back:$hone_value":	{
+			"key":	"controls_down",
+			"isRegex":	true
+		},
+		"+moveleft:$hone_value":	{
+			"key":	"controls_left",
+			"isRegex":	true
+		},
+		"+moveright:$hone_value":	{
+			"key":	"controls_right",
+			"isRegex":	true
+		},
+        "+speed:$hone_value":	{
+			"key":	"controls_walk",
+			"isRegex":	true
+		},
+		"+jump:$hone_value":	{
+			"key":	"controls_jump",
+			"isRegex":	true
+		},
+		"+use:$hone_value":	{
+			"key":	"controls_use",
+			"isRegex":	true
+		},
+		"+attack:$hone_value":	{
+			"key":	"controls_fire",
+			"isRegex":	true
+		},
+        "+attack2:$hone_value":	{
+			"key":	"controls_fireSecondary",
+			"isRegex":	true
+		},
+		"+duck:$hone_value":	{
+			"key":	"controls_crouch",
+			"isRegex":	true
+		}
+        
+    }
+}
