@@ -1,0 +1,75 @@
+{
+	"name":	"Predecessor",										
+	"configs":	[
+		".*\\AppData\\local\\Predecessor\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResolutionSizeY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResolutionSizeX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"sg.TextureQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Epic"]
+		},
+		"sg.AntiAliasingQuality":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["Off","On"]
+		},
+        "setting.aspectratiomode":	{
+			"key":	"resolution_aspectRatio",
+			"type":	"select_array",
+			"options": ["Normal (4:3)","Widescreen (16:9)","Widescreen (16:10)"]
+		},
+        "OverallVolume": {
+            "key": "master_volume",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+        "MusicVolume": {
+            "key": "background_music",
+            "type": "progress",
+            "min": "0",
+            "max": "1"
+        },
+        "sensitivity": {
+            "key": "sensitivity",
+            "type": "progress",
+            "min": 0,
+            "max": 20
+        },
+        "MoveForward:$hone_value":	{
+			"key":	"controls_up",
+			"isRegex":	true
+		},
+		"MoveBackwards:$hone_value":	{
+			"key":	"controls_down",
+			"isRegex":	true
+		},
+		"MoveLeft:$hone_value":	{
+			"key":	"controls_left",
+			"isRegex":	true
+		},
+		"MoveRight:$hone_value":	{
+			"key":	"controls_right",
+			"isRegex":	true
+		},
+		"Jump:$hone_value":	{
+			"key":	"controls_jump",
+			"isRegex":	true
+		},
+		"Ability1:$hone_value":	{
+			"key":	"controls_fire",
+			"isRegex":	true
+		}
+        
+    }
+}
