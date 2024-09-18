@@ -1,0 +1,61 @@
+{
+	"name":	"Spectre Divide",										
+	"configs":	[
+		".*\\AppData\\Local\\Spectre\\Saved\\Config\\WindowsClient\\GameUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResolutionSizeY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResolutionSizeX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"sg.TextureQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Epic"]
+		},
+		"sg.AntiAliasingQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Off","FXAA","Temporal AA"]
+		},
+		"VolumeMaster":	{
+			"key":	"master_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"MusicVolume":	{
+			"key":	"background_music",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"VolumeVOInGame":	{
+			"key":	"speech_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		},
+		"bSubtitles":	{
+			"key":	"subtitles",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+		"bInvertedYAxis":	{
+			"key":	"mouse_invertYAxis",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+		"MouseSensitivity":	{
+			"key":	"mouse_sensitivity",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"1"
+		}
+	}
+}
