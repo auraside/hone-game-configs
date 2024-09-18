@@ -1,0 +1,22 @@
+{
+	"name":	"Arma 3",										
+	"configs":	[
+		 ".*\\Documents\\Arma 3\\Arma3.cfg"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"fullScreenHeight":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"fullScreenWidth":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"multiSampleCount":	{
+			"key":	"anti_aliasing",
+			"type":	"select_array",
+			"options":	["Disabled","2x","4x","8x"]
+		}
+    }
+}
