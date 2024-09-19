@@ -1,0 +1,61 @@
+{
+	"name":	"The First Descendant",										
+	"configs":	[
+		".*\\AppData\\Local\\M1\\Saved\\Config\\Windows\\GameUserSettings.ini"
+	],
+	"ignore_fields":	[],
+	"Mappings":	{
+		"ResolutionSizeY":	{
+			"key":	"resolution_height",
+			"type":	"Number"
+		},
+		"ResolutionSizeX":	{
+			"key":	"resolution_width",
+			"type":	"Number"
+		},
+		"sg.TextureQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Ultra"]
+		},
+		"sg.AntiAliasingQuality":	{
+			"key":"texture",
+			"type":	"select_array",
+			"options":	["Low","Medium","High","Ultra"]
+		},
+		"MasterVolume":	{
+			"key":	"master_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"10"
+		},
+		"MusicVolume":	{
+			"key":	"background_music",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"10"
+		},
+		"DialogueVolume":	{
+			"key":	"speech_volume",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"10"
+		},
+		"bMouseInvertAxis_Y":	{
+			"key":	"mouse_invertYAxis",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+		"bMouseInvertAxis_X":	{
+			"key":	"mouse_invertXAxis",
+			"type":	"boolean",
+			"isNumber":	false
+		},
+		"MouseSensitivity_Normal":	{
+			"key":	"mouse_sensitivity",
+			"type":	"progress",
+			"min":	"0",
+			"max":	"100"
+		}
+	}
+}
